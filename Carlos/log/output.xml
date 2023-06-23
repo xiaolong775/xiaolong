@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.10 on darwin)" generated="20220801 16:37:10.592" rpa="false" schemaversion="3">
+<suite id="s1" name="Untitled-1" source="/Users/ChunhuaData/RobotFramework/iCivet_Project/Carlos/Untitled-1.robot">
+<test id="s1-t1" name="Open_Application" line="11">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=LMX210c697a88a</arg>
+<arg>appPackage=com.fsc.civetphone</arg>
+<arg>appActivity=com.fsc.civetphone.app.fragment.main.CivetMainActivity</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>newCommandTimeout=300</arg>
+<arg>fullReset=false</arg>
+<arg>and noReset=false</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20220801 16:37:10.695" endtime="20220801 16:37:48.970"/>
+</kw>
+<status status="PASS" starttime="20220801 16:37:10.695" endtime="20220801 16:37:48.971"/>
+</test>
+<status status="PASS" starttime="20220801 16:37:10.593" endtime="20220801 16:37:48.971"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Untitled-1">Untitled-1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
